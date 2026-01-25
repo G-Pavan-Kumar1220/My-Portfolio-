@@ -1,0 +1,139 @@
+
+@media (max-width: 1440px) {
+    header {
+        padding: 20px 40px;
+    }
+    nav ul {
+        gap: 25px;
+    }
+    .home {
+        height: 85vh;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    header {
+        padding: 18px 30px;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    .home {
+        height: auto;
+        padding: 40px 0;
+    }
+    .right-side, .left-side {
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .profile h1 {
+        font-size: 2.4rem;
+    }
+    .profile .lead {
+        float: none;
+        text-align: center;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+    header {
+        padding: 15px 25px;
+    }
+
+    .contact-btn {
+        padding: 8px 18px;
+    }
+    .profile h1 {
+        font-size: 2.1rem;
+    }
+    .profile .lead {
+        font-size: 1rem;
+    }
+    .profile-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .left-side, .right-side {
+        display: flex;
+        width: 90%;
+    }
+    .footer {
+    padding: 25px 0;
+  }
+  
+  .social-links {
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 15px;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .home {
+        padding: 20px 0;
+    }
+    .profile h1 {
+        font-size: 1.8rem;
+    }
+    .profile .lead {
+        font-size: 0.95rem;
+    }
+    .btn {
+        padding: 10px 22px;
+        font-size: 0.9rem;
+    }
+    .btn-outline {
+        font-size: 0.9rem;
+    }
+    .my-pic {
+        width: 250px;
+        height: 250px;
+    }
+    @media (max-width: 480px) {
+  .footer {
+    font-size: 14px;
+  }
+
+  .social-links a {
+    margin: 5px 0;
+    display: block; 
+  }
+}
+}
+
+@media (max-width: 360px) {
+    .logo {
+        font-size: 20px;
+    }
+    .profile h1 {
+        font-size: 1.6rem;
+    }
+    .btn, .btn-outline {
+        font-size: 0.85rem;
+        padding: 8px 18px;
+    }
+    .right-side{
+        justify-content: center;
+        display: flex;
+    }
+    .my-pic {
+        width: 200px;
+        height: 200px;
+    }
+}

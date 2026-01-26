@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { IoArrowBack } from "react-icons/io5";
 
@@ -29,16 +29,12 @@ const projects = [
 ];
 
 function Projects() {
-  const navigate = useNavigate();
-    function handeler(){
-    navigate(-1)
-  }
   return (
     <>
-    <div className="back-btn">
+    {/* <div className="back-btn">
                 <div className="backArrow" onClick={handeler}><IoArrowBack/> Back</div>
     
-            </div>
+            </div> */}
     
     <section id="projects" className="px-10 py-20 bg-gray-50">
       <h2 className="text-4xl font-semibold text-gray-800 border-b-4 border-blue-500 inline-block mb-10">

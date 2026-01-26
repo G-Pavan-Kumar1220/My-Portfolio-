@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 
 function Details() {
   const [avatar, setAvatar] = useState("");
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     fetch(`https://api.github.com/users/G-Pavan-Kumar1220`)
       .then((res) => res.json())
       .then((data) => setAvatar(data.avatar_url));
   }, []);
-  function handeler(){
-    navigate(-1)
-  }
+  // function handeler(){
+  //   navigate(-1)
+  // }
 
   return (
    <>
-   <div className="back-btn">
+   {/* <div className="back-btn">
     <div className="backArrow" onClick={handeler}><IoArrowBack/> Back</div>
    
-    </div>
+    </div> */}
     <section className="about" id="about">
       <div className="about-container">
         

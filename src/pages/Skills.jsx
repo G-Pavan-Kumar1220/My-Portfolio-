@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaDatabase } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiExpress, SiPython } from "react-icons/si";
 import { IoArrowBack } from "react-icons/io5";
@@ -8,7 +7,6 @@ import { IoArrowBack } from "react-icons/io5";
 
 
 function Skills() {
-    const navigate = useNavigate()
     const skills = [
   { name: "HTML", icon: <FaHtml5 />, level: "95%" },
   { name: "CSS", icon: <FaCss3Alt />, level: "90%" },
@@ -22,15 +20,9 @@ function Skills() {
 
 ];
 
-  function handeler(){
-    navigate(-1)
-  }
   return (
     <>
-    <div className="back-btn">
-            <div className="backArrow" onClick={handeler}><IoArrowBack/> Back</div>
 
-        </div>
     <section  id="skills" className="px-2 py-10 bg-gray-50 ">
         
       <h2 className="text-4xl font-semibold text-gray-800 border-b-4 border-blue-500 inline-block mb-10">

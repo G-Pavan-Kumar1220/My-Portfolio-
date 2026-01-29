@@ -26,6 +26,13 @@ const projects = [
     github: "https://github.com/G-Pavan-Kumar1220/react---task-management---fronted-",
     demo: "https://frontendassignment111.netlify.app/"
   },
+  {
+    title: "Fetching Data From Api ",
+    description: "A React.js based project that fetching data from the api and make in table format frontennd Assignment ",
+    tech: ["React","JSON","APi","typeScript"],
+    github: "https://github.com/G-Pavan-Kumar1220/React-data-table-displays-Chicago-API",
+    demo: "https://transcendent-llama-bdb5ce.netlify.app/"
+  },
 ];
 
 function Projects() {

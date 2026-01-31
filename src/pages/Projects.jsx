@@ -33,6 +33,13 @@ const projects = [
     github: "https://github.com/G-Pavan-Kumar1220/React-data-table-displays-Chicago-API",
     demo: "https://transcendent-llama-bdb5ce.netlify.app/"
   },
+  {
+    title: "Share Secret",
+    description: "A MERN stack based Project which can generate an url to share information very secretly",
+    tech: ["React","JSON","APi","Node.js","Express.js","MongoDB"],
+    github: "https://github.com/G-Pavan-Kumar1220/Share-Secret-front-end-",
+    demo: "https://share-secret-front-end.vercel.app/"
+  },
 ];
 
 function Projects() {

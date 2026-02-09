@@ -20,6 +20,13 @@ const projects = [
   //   demo: "https://g-pavan-kumar1220.github.io/add-notes/"
   // },
   {
+    title: "Share Secret",
+    description: "A MERN stack based Project which can generate an url to share information very secretly",
+    tech: ["React","JSON","APi","Node.js","Express.js","MongoDB"],
+    github: "https://github.com/G-Pavan-Kumar1220/Share-Secret-front-end-",
+    demo: "https://share-secret-front-end.vercel.app/"
+  },
+  {
     title: "LAUNDRY SERVICE",
     description: "Online Laundry Service Use desktop",
     tech: ["html","CSS","JavaScript","Jquery","email.js"],
@@ -39,13 +46,6 @@ const projects = [
     tech: ["React","JSON","APi","typeScript"],
     github: "https://github.com/G-Pavan-Kumar1220/React-data-table-displays-Chicago-API",
     demo: "https://transcendent-llama-bdb5ce.netlify.app/"
-  },
-  {
-    title: "Share Secret",
-    description: "A MERN stack based Project which can generate an url to share information very secretly",
-    tech: ["React","JSON","APi","Node.js","Express.js","MongoDB"],
-    github: "https://github.com/G-Pavan-Kumar1220/Share-Secret-front-end-",
-    demo: "https://share-secret-front-end.vercel.app/"
   },
 ];
 

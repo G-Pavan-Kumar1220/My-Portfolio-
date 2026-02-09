@@ -5,6 +5,13 @@ import { IoArrowBack } from "react-icons/io5";
 
 const projects = [
   
+  {
+    title: "Real time Group Chat",
+    description: "Developed a real-time group chat application using React, Node.js, Express, MongoDB, and Socket.IO for instant multi-user messaging.",
+    tech: ["React","JSON","APi","Node.js","Express.js","MongoDB","Socket.io"],
+    github: "https://github.com/G-Pavan-Kumar1220/chat-app-front-end-",
+    demo: "https://chat-app-front-end-zeta.vercel.app/"
+  },
   // {
   //   title: "ADD NOTES",
   //   description: "Task management notes",
